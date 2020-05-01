@@ -1,0 +1,109 @@
+/*base classes*/
+body, html{
+	height: 100%;
+	background-color:#514E39;
+}
+.float-right{
+float: right;
+}
+.float-left{
+	float: left;
+}
+.clearfix:after{
+	content:'';
+	clear:both;
+	display: block;
+}
+.container{
+	max-width:900px;
+	margin: 0 auto;
+	
+}
+.vertical-align{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+/*base classes*/
+/*html style*/
+header{
+	padding-top:30px;
+}
+.logo img{
+	width:50px;
+}
+.contact-buttons{
+	width: 20px;
+}
+.navigation-text{
+color:white;
+}
+.test:nth-child(-n+3):after{
+	margin:0 6px;
+	display:inline-block;
+	content:'';
+	width: 1px;
+	height:15px;
+	background-color: white;
+}
+.navigation-text{
+	font-size: 25px;
+}
+.test2:after{
+	margin:0 5px;
+	display:inline-block;
+	content:'';
+	width: 1px;
+	height:20px;
+	background-color: blue;
+}
+nav{
+	margin-right:17%;
+	}
+	/*html styles*/
+ /*section1 styles*/
+ .section1{
+ 	background-image: linear-gradient(45deg, #A8FF33,#28BC3F, #2FAB42);
+ 	height:100%;
+ 	padding-top:30px;
+ }
+ .table{
+ 	margin:10px auto;
+ }
+.table-element{
+	border: 2px solid black;
+	padding:5px;
+	border-collapse: collapse;
+
+}
+h1{
+text-align: center;
+}
+.navigation:hover{
+	background-color: white;
+	color:#A8FF33;
+}
+/*images page*/
+.imagespage img{
+	width:800px;
+	margin:40px;
+
+}
+.imagecontainer{
+background-image: linear-gradient(45deg, #A8FF33,#28BC3F, #2FAB42);
+height:88%;
+overflow-y: auto;
+scrollbar-width:thin;
+
+}
+
+
+
+
+
+
+
+
+
+
+
